@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style:none;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 6px;
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn{
+    border: 3px solid black;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin: 0;
+    padding: .3rem .5rem;
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0);
+    cursor: pointer;
+}
+
